@@ -1,0 +1,8 @@
+/* tailwind.scss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.header {
+  @apply text-gray-600 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-50; }
+  .header nav {
+    @apply hover:text-green-800; }
