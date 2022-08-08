@@ -1,7 +1,6 @@
 name: Lint
 on: push
-  branches:
-    - main
+  branches: [ "main" ]
 jobs:
   run-linters:
     name: Run linters
