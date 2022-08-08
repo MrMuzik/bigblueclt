@@ -8,7 +8,7 @@ function App() {
       <header className="App-header header">
         <img src={logo} className="App-logo" alt="logo" />
         <nav>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. CI?
         </nav>
         <Link to="/about">About</Link>
       </header>
