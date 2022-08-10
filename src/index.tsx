@@ -6,7 +6,9 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./About";
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
 root.render(
   <React.StrictMode>
     <HashRouter>

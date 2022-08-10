@@ -10,7 +10,7 @@ function App() {
         <nav>
           Edit <code>src/App.js</code> and save to reload.
         </nav>
-        <p>CI is working!</p>
+        <p>Using typescript now.</p>
         <Link to="/about">About</Link>
       </header>
     </div>
